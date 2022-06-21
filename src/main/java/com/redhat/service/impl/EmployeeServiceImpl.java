@@ -38,7 +38,7 @@ public class EmployeeServiceImpl extends RouteBuilder {
 								.getBody();
 						List<Employee> employees = new ArrayList<Employee>();
 
-						System.out.println(dataList);
+						System.out.println("[select] : " + dataList);
 						for (Map<String, String> data : dataList) {
 
 							Employee employee = new Employee();
